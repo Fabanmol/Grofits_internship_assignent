@@ -1,0 +1,52 @@
+body,html{
+	margin: 0;
+	background-color: #cdcdcd;
+}
+.cardWrapper{
+	box-sizing: border-box;
+	box-shadow: 7px 6px 7px #777;
+	border:2px solid #000;
+	border-radius: 5px;
+	height: 350px;
+	background-size: cover;		
+	cursor: pointer; 
+	margin:30px 12px ;
+	padding: 10px 0;
+}
+.heading{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 40px;
+	background-color: #202020;
+	color: #cdcdcd;
+}
+.cardWrapper:hover{
+transform: scale(1.01,1.01); 
+}
+.card1{
+background-image: url('../../Assets/images/iphone.jpg');
+
+}
+.card2{
+background-image: url('../../Assets/images/samsung.jpg');
+
+}
+.card3{
+background-image: url('../../Assets/images/nokia9.jpg');
+
+}
+.card4{
+background-image: url('../../Assets/images/one7.jpg');	
+}
+.card5{
+background-image: url('../../Assets/images/Redmi9.jpg');	
+}
+.cardElementName{
+	position:absolute;                  
+   	bottom:0;                          
+   	text-align: center;
+   	color: #cdcdcd;
+   	width: 100%;
+   	font-size: 20px;
+   	background-color: #202020;
+}
